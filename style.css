@@ -163,3 +163,14 @@ body {
 .testimonials__item:last-child .testimonials__desc {
   padding-right: 0.0625rem;
 }
+
+@media (min-width: 72rem) {
+  .testimonials__item-wide {
+    grid-column: span 2;
+  }
+
+  .testimonials__item-tall {
+    grid-column: -2 / -1;
+    grid-row: -1 / span 2;
+  }
+}
