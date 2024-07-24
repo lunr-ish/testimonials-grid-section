@@ -98,6 +98,11 @@ body {
   --clr-card-text: var(--clr-light-grayish-blue);
 }
 
+.testimonials__card-gray {
+  --clr-card-bg: var(--clr-very-dark-grayish-blue);
+  --clr-card-text: var(--clr-light-grayish-blue);
+}
+
 .testimonials__user {
   display: flex;
   gap: 1rem;
@@ -130,6 +135,9 @@ body {
 }
 
 .testimonials__desc {
-  padding-right: 0.9375rem;
   color: hsl(var(--_clr-card-text) / 70%);
+}
+
+.testimonials__card-violet .testimonials__desc {
+  padding-right: 0.9375rem;
 }
