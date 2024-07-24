@@ -71,6 +71,8 @@ body {
 /* TESTIMONIALS SECTION */
 
 .testimonials {
+  max-width: 20.4375rem;
+  margin: 0 auto;
   margin-block: 3rem;
 }
 
