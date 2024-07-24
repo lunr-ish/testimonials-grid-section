@@ -79,3 +79,49 @@ body {
   grid-template-columns: 1fr;
   gap: 1.5rem;
 }
+
+/* CARD */
+
+.testimonials__card {
+  background: hsl(var(--clr-moderate-violet));
+  color: hsl(var(--clr-light-grayish-blue));
+  padding: 1.5rem 2rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.testimonials__user {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 1px solid hsl(var(--clr-light-gray));
+}
+
+.testimonials__user-name {
+  font-weight: var(--fw-semibold);
+}
+
+.testimonials__user-status {
+  font-size: 0.6875rem;
+  color: hsl(var(--clr-light-grayish-blue) / 50%);
+}
+
+.testimonials__title {
+  font-size: 1.25rem;
+  font-weight: var(--fw-semibold);
+  line-height: 1.2;
+  margin-block: 1rem;
+  padding-right: 1px;
+}
+
+.testimonials__desc {
+  padding-right: 0.9375rem;
+  color: hsl(var(--clr-light-grayish-blue) / 70%);
+}
