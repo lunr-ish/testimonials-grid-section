@@ -82,6 +82,17 @@ body {
   gap: 1.5rem;
 }
 
+@media (min-width: 72rem) {
+  .testimonials {
+    max-width: 69.375rem;
+    margin-block: 10.25rem;
+  }
+
+  .testimonials__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 /* CARD */
 
 .testimonials__card {
