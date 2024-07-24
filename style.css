@@ -103,6 +103,11 @@ body {
   --clr-card-text: var(--clr-light-grayish-blue);
 }
 
+.testimonials__card-darkgray {
+  --clr-card-bg: var(--clr-very-dark-blackish-blue);
+  --clr-card-text: var(--clr-light-grayish-blue);
+}
+
 .testimonials__user {
   display: flex;
   gap: 1rem;
