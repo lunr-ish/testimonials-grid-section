@@ -171,6 +171,6 @@ body {
 
   .testimonials__item-tall {
     grid-column: -2 / -1;
-    grid-row: -1 / span 2;
+    grid-row: 1 / span 2;
   }
 }
