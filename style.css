@@ -121,7 +121,7 @@ body {
   height: 2rem;
   border-radius: 100%;
   overflow: hidden;
-  border: 1px solid hsl(var(--clr-light-gray));
+  border: 0.0625rem solid hsl(var(--clr-light-gray));
 }
 
 .testimonials__user-name {
@@ -138,7 +138,7 @@ body {
   font-weight: var(--fw-semibold);
   line-height: 1.2;
   margin-block: 1rem;
-  padding-right: 1px;
+  padding-right: 0.0625rem;
 }
 
 .testimonials__desc {
