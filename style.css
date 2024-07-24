@@ -83,11 +83,19 @@ body {
 /* CARD */
 
 .testimonials__card {
-  background: hsl(var(--clr-moderate-violet));
-  color: hsl(var(--clr-light-grayish-blue));
+  --_clr-card-bg: var(--clr-card-bg, var(--clr-white));
+  --_clr-card-text: var(--clr-card-text, var(--clr-very-dark-grayish-blue));
+
+  background: hsl(var(--_clr-card-bg));
+  color: hsl(var(--_clr-card-text));
   padding: 1.5rem 2rem 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.testimonials__card-violet {
+  --clr-card-bg: var(--clr-moderate-violet);
+  --clr-card-text: var(--clr-light-grayish-blue);
 }
 
 .testimonials__user {
@@ -110,7 +118,7 @@ body {
 
 .testimonials__user-status {
   font-size: 0.6875rem;
-  color: hsl(var(--clr-light-grayish-blue) / 50%);
+  color: hsl(var(--_clr-card-text) / 50%);
 }
 
 .testimonials__title {
@@ -123,5 +131,5 @@ body {
 
 .testimonials__desc {
   padding-right: 0.9375rem;
-  color: hsl(var(--clr-light-grayish-blue) / 70%);
+  color: hsl(var(--_clr-card-text) / 70%);
 }
