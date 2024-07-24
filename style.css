@@ -59,3 +59,11 @@ ul {
   white-space: nowrap;
   width: 1px;
 }
+
+/* BODY */
+
+body {
+  font: var(--fw-medium) 0.8125rem/1.4 var(--ff-barlow-semi-condensed);
+  background: hsl(var(--clr-light-grayish-blue));
+  padding: 1.5rem;
+}
