@@ -109,6 +109,10 @@ body {
 .testimonials__card-violet {
   --clr-card-bg: var(--clr-moderate-violet);
   --clr-card-text: var(--clr-light-grayish-blue);
+
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top 0 right 1.5rem;
 }
 
 .testimonials__card-gray {
@@ -172,5 +176,9 @@ body {
   .testimonials__item-tall {
     grid-column: -2 / -1;
     grid-row: 1 / span 2;
+  }
+
+  .testimonials__card-violet {
+    background-position: top 0 right 5rem;
   }
 }
