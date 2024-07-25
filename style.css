@@ -85,7 +85,7 @@ body {
 @media (min-width: 72rem) {
   .testimonials {
     max-width: 69.375rem;
-    margin-block: 10.25rem;
+    margin-block: 8.75rem;
   }
 
   .testimonials__list {
